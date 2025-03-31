@@ -1,0 +1,11 @@
+version: '1.0'
+build_script:
+  - npm install
+  - npm run build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # set in the settings page of your repository
+  local_dir: dist
+  on:
+    branch: main

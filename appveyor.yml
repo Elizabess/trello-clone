@@ -1,0 +1,14 @@
+version: '1.0'
+image: Visual Studio 2019
+
+build_script:
+  - npm install
+  - npm run build
+
+deploy:
+  provider: Pages
+  skip_cleanup: true
+  github_token: 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
+  local_dir: dist
+  on:
+    branch: main
