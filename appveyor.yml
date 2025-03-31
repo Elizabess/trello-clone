@@ -8,7 +8,7 @@ build_script:
 deploy:
   provider: Pages
   skip_cleanup: true
-  github_token: 1
+  # github_token: 1
   local_dir: dist
   on:
     branch: main
