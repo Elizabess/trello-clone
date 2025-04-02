@@ -7,7 +7,7 @@ build_script:
 
 deploy:
   provider: GitHubPages
-  github_token: $GITHUB_TOKEN  
+  github_token: $trello 
   local_dir: dist                
   on:
     branch: main                 
