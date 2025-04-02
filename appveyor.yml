@@ -10,4 +10,8 @@ deploy:
   github_token: $trello 
   local_dir: dist                
   on:
-    branch: main                 
+    branch: main    
+
+environment:
+  trello:
+  secure: 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            
