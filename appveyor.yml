@@ -7,12 +7,13 @@ build_script:
 
 environment:
   trello:
-    secure: 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            
+    secure: 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            
 
-deploy:
-  provider: GitHubPages
-  github_token: $trello 
-  local_dir: dist                
-  on:
-    branch: main  
-  force_push: true 
+  deploy:
+    - provider: GitHubPages
+      repository: Elizabess/trello-clone
+      branch: gh-pages
+      folder: dist
+      on:
+        branch: main 
+   
