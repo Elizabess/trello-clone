@@ -5,7 +5,7 @@ build_script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: 1
+  github_token: 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
   local_dir: dist
   on:
     branch: main
