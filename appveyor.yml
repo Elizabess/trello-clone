@@ -6,14 +6,13 @@ build_script:
   - npm run build
 
 environment:
-  trello:
-    secure: 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            
+  trello: 
+    secure: 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 
 
-  deploy:
-    - provider: GitHubPages
-      repository: Elizabess/trello-clone
-      branch: gh-pages
-      folder: dist
-      on:
-        branch: main 
-   
+deploy:
+  - provider: GitHubPages
+    repository: Elizabess/trello-clone
+    branch: gh-pages
+    folder: dist
+    on:
+      branch: main
