@@ -8,7 +8,7 @@ build_script:
 deploy:
   provider: Pages
   skip_cleanup: true
-  github_token: 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
+  github_token: $GITHUB_TOKEN
   local_dir: dist
   on:
     branch: main
