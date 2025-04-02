@@ -7,7 +7,7 @@ build_script:
 
 environment:
   trello:
-  secure: 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            
+    secure: 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            
 
 deploy:
   provider: GitHubPages
@@ -15,4 +15,4 @@ deploy:
   local_dir: dist                
   on:
     branch: main  
-  forse_push: true  
+  force_push: true 
