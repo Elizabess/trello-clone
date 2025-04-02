@@ -22,5 +22,9 @@
     "babel-loader": "^10.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
   }
 }
