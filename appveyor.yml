@@ -12,6 +12,8 @@ environment:
 deploy:
   - provider: GitHubPages
     repository: Elizabess/trello-clone
+    auth_token:
+      secure: $trello
     branch: gh-pages
     folder: dist
     on:
